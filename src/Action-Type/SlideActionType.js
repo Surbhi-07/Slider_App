@@ -1,0 +1,1 @@
+export const slides = "slides_data";

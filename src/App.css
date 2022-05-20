@@ -1,0 +1,36 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#navigation {
+  margin-bottom: 2rem;
+}
+
+#navigation button {
+  margin-right: 1rem;
+  font-size: 20px;
+}
+
+#slide {
+  border: 1px solid black;
+  padding: 1rem;
+  min-height: 300px;
+}
+
+button {
+    min-width: 80px;
+}
+
+@media screen and (max-width:315px) {
+  #navigation button {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width:285px) {
+  #navigation button {
+    margin-bottom: 5px;
+  }
+}
